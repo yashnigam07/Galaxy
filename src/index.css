@@ -1,1 +1,16 @@
 @import "tailwindcss";
+/* index.css */
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.glow-text {
+  text-shadow: 0 0 8px rgba(255, 105, 180, 0.7), 0 0 16px rgba(255, 105, 180, 0.3);
+}
